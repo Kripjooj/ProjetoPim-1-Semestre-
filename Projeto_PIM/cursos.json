@@ -1,0 +1,23 @@
+{
+    "1": {
+        "nome": "Introdução à Programação",
+        "carga_horaria": "40h",
+        "modulos": [
+            {
+                "nome": "teste",
+                "criado_por": "admin",
+                "data_criacao": "2025-05-23T23:18:37.856387",
+                "aulas": []
+            }
+        ],
+        "criado_por": "Sistema",
+        "data_criacao": "2025-05-23T22:41:53.908861"
+    },
+    "2": {
+        "nome": "Segurança da Informação",
+        "carga_horaria": "30h",
+        "modulos": [],
+        "criado_por": "Sistema",
+        "data_criacao": "2025-05-23T22:41:53.908885"
+    }
+}
