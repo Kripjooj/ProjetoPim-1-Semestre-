@@ -1,29 +1,77 @@
-Sistema acadêmico em Python para gerenciamento de cursos, módulos, usuários e emissão de certificados. Inclui autenticação com permissões diferenciadas (usuário x administrador), registro de logs e interface interativa em terminal.
+🎓 PIM – Sistema Acadêmico em Python
 
-Principais Funcionalidades:
+Sistema acadêmico desenvolvido em Python como projeto integrador da faculdade.
+Permite gerenciamento de cursos, módulos, usuários e emissão de certificados, com autenticação diferenciada para administradores e usuários.
 
-🔐 Autenticação de usuários com cadastro, login, logout e persistência de dados em JSON.
+🚀 Funcionalidades
 
-👨‍🏫 Níveis de acesso (Admin / Usuário) com menus e permissões diferenciadas.
+🔐 Autenticação de usuários: cadastro, login, logout e persistência em JSON
 
-🎓 Gerenciamento de cursos e módulos, restritos a administradores.
+👨‍🏫 Níveis de acesso: menus e permissões diferentes para Admin e Usuário
 
-📜 Emissão de certificados simulados para usuários.
+🎓 Gerenciamento de cursos e módulos (restrito a administradores)
 
-🛡 Camada de segurança com logs de atividades (login, logout, erros).
+📜 Emissão de certificados simulados para usuários
 
-🎨 Interface em terminal com personalização de cores (ANSI escape codes).
+🛡 Registro de logs de atividades (login, logout, erros)
 
-Tecnologias / Conhecimentos aplicados:
+🎨 Interface no terminal com cores personalizadas (ANSI escape codes)
 
-Python (estrutura modular com pacotes e imports organizados).
+🛠 Tecnologias e Conceitos
 
-Arquitetura em camadas: separação por módulos (usuarios, cursos, modulos, certificados, security).
+Python 3 – Estrutura modular com pacotes
 
-Persistência de dados em JSON (armazenamento de usuários, cursos e logs).
+Arquitetura em camadas – separação por módulos (usuarios, cursos, modulos, certificados, security)
 
-Controle de acesso (ACL) diferenciando admins e usuários.
+JSON – persistência de dados e logs
 
-Tratamento de erros e logging.
+ACL (Access Control List) – diferenciação de permissões
 
-Boas práticas de clean code (funções organizadas, código legível).
+Clean Code – código organizado, modular e legível
+
+▶️ Como Executar
+
+Clone o repositório:
+
+git clone https://github.com/Kripjooj/ProjetoPim-1-Semestre-.git
+cd ProjetoPim-1-Semestre-
+
+
+Execute o programa:
+
+python main.py
+
+📌 Exemplo de Uso
+
+Usuário comum:
+
+Cadastra conta
+
+Faz login
+
+Consulta cursos e emite certificado
+
+Administrador:
+
+Faz login como admin
+
+Cria cursos e módulos
+
+Gera relatórios e acessa logs
+
+🔮 Possíveis Melhorias
+
+Migração do JSON para banco de dados relacional (SQLite/MySQL)
+
+Implementação de interface Web (Flask/Django)
+
+Envio automático de certificados por e-mail
+
+Testes unitários automatizados
+
+👨‍💻 Equipe
+
+Projeto desenvolvido como trabalho acadêmico na disciplina de Projeto Integrador Multidisciplinar (PIM).
+
+Davi C. Cerqueira
+ – Desenvolvedor
